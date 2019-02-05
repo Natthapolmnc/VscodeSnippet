@@ -15,7 +15,7 @@
         "description": "import reg",
     },
     "import all":{
-        "prefix": "all",
+        "prefix": "resci",
         "body": [
             "import pandas as pd",
             "import numpy as np",
@@ -56,7 +56,7 @@
                 "keywords=''",
                 "packages=['modulename(packagename)']",
                 "package_dir={'modulename(packagename)': 'src/__init__(Path)'}",
-                "package_data={'modulename' :['file'] #ใช้สำหรับเพิ่มไฟล์เข้าไปในแพ็กเกจเพราะบางไฟล์ ตอนบีบไฟล์ก่อนอัพขึ้นมันจะไม่ถูกรวมไปกับไฟล์บีบอัด\n}",
+                "package_data={'modulename' :['file'] #๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝับ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝเกจ๏ฟฝ๏ฟฝ๏ฟฝะบาง๏ฟฝ๏ฟฝ๏ฟฝ ๏ฟฝอน๏ฟฝีบ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอน๏ฟฝัพ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝัน๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝูก๏ฟฝ๏ฟฝ๏ฟฝไปกับ๏ฟฝ๏ฟฝ๏ฟฝีบ๏ฟฝัด\n}",
             ")",
         ]
     }
