@@ -15,7 +15,7 @@
         "description": "import reg",
     },
     "import all":{
-        "prefix": "all",
+        "prefix": "resci",
         "body": [
             "import pandas as pd",
             "import numpy as np",
