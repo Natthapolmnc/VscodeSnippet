@@ -1,0 +1,63 @@
+{
+    "Import pandas": {
+        "prefix": "sci",
+        "body": [
+          "import pandas as pd",
+			"import numpy as np"
+        ],
+        "description": "Import pandas",},
+
+    "Import re":{
+        "prefix": "re",
+        "body": [
+            "import re"
+        ],
+        "description": "import reg",
+    },
+    "import all":{
+        "prefix": "all",
+        "body": [
+            "import pandas as pd",
+            "import numpy as np",
+            "import re"
+        ],
+        "description": "import all",
+    },
+    "import beautifulSoup":{
+        "prefix": "bs",
+        "body": [
+            "from bs4 import BeautifulSoup as bs",
+            "from bs4 import SoupStrainer as soupstr",
+            "from PIL import Image",
+            "import io",
+            "import requests as rq"
+        ],
+        "description": "import bs4 set",
+    },
+    "module template":{
+        "prefix": "setup",
+        "body":[
+            "from setuptools import setup\n",
+
+            "def readme():",
+                "with open('README.md') as f:",
+                    "return f.read()\n",
+            
+            "setup(name='modulename'",
+                "version='1.0'",
+                "description='desciption of module'",
+                "long_description=readme()",
+                "url='https://github.com/'",
+                "author='Fame'",
+                "author_email='natthapol.m@outlook.com'",
+                "license=''",
+                "install_requires=[]",
+                "scripts=[]",
+                "keywords=''",
+                "packages=['modulename(packagename)']",
+                "package_dir={'modulename(packagename)': 'src/__init__(Path)'}",
+                "package_data={'modulename' :['file'] #„™È ”À√—∫‡æ‘Ë¡‰ø≈Ï‡¢È“‰ª„π·æÁ°‡°®‡æ√“–∫“ß‰ø≈Ï µÕπ∫’∫‰ø≈Ï°ËÕπÕ—æ¢÷Èπ¡—π®–‰¡Ë∂Ÿ°√«¡‰ª°—∫‰ø≈Ï∫’∫Õ—¥\n}",
+            ")",
+        ]
+    }
+}
